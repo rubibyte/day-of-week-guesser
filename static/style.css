@@ -1,0 +1,39 @@
+body {
+  background-color: #111111;
+  font-family: lucida console;
+}
+
+h2 {
+  color: #bbbbbb;
+  font-size: 55px;
+}
+
+h3 {
+  font-size: 45px;
+  color: #cccccc
+}
+
+#txt {
+  font-size: 40px;
+  background-color: #555555aa;
+  font-family: courier new;
+}
+
+div {
+  margin: auto;
+  width: 50%;
+  height: 450px;
+  border: 2px ;
+  border-radius: 7%;
+  padding: 50px;
+  background-color: #202020cc;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#center-screen {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-top: -100px;
+    margin-left: -50px;
+}​

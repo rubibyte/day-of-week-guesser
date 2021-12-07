@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Day of Week Guesser</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div id="center-screen">
+    <center>
+    <h2>Enter date</h2>
+    <form action="#" method="post">
+      <input id="txt" type="text" name="date" placeholder="dd-mm-yyyy">
+      <input id="txt" type="submit" name="sub" value="Submit">
+    </form>
+    {% block result %} {% endblock %}
+    <center/>
+  </div>
+  </body>
+</html>
