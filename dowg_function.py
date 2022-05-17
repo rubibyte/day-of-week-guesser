@@ -19,7 +19,7 @@ def dow(date):
 
         dayOfWeek = int()
 
-    # on which day of the week does the century start
+    # which day is Doomsday
         century = int(str(year)[:2]) - 20
         if century < 0:
             while century < -4:
@@ -39,7 +39,7 @@ def dow(date):
             if century == 3: dayOfWeek = 3
             if century == 4: dayOfWeek = 2
 
-    # now based on the century start, we can know on which day did the year start
+    # now based on the century's Doomsday, we can know which day is the first Doomsday (3rd January or 4th on leap year)
         decade = int(str(year)[2:])
         leapYears = 0
         dayOfWeek += decade
